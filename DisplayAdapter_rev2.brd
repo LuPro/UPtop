@@ -387,8 +387,8 @@ design rules under a new name.</description>
 <signal name="LANE0_N">
 <contactref element="U$1" pad="PIN17"/>
 <contactref element="U$2" pad="PIN6"/>
-<wire x1="6.15" y1="18.45" x2="6.2976" y2="17.45" width="0.1524" layer="1"/>
-<wire x1="6.2976" y1="17.45" x2="6.2976" y2="15.35" width="0.1524" layer="1"/>
+<wire x1="6.15" y1="18.45" x2="6.2976" y2="17.05" width="0.1524" layer="1"/>
+<wire x1="6.2976" y1="17.05" x2="6.2976" y2="15.35" width="0.1524" layer="1"/>
 <via x="6.0055" y="15.35" extent="1-16" drill="0.3302" diameter="0.6858"/>
 <wire x1="6.2976" y1="15.35" x2="6.0055" y2="15.35" width="0.1524" layer="16"/>
 <wire x1="6.2976" y1="15.35" x2="6.0055" y2="15.35" width="0.1524" layer="1"/>
@@ -481,10 +481,10 @@ design rules under a new name.</description>
 <wire x1="13.95" y1="3.9" x2="14.6" y2="4.55" width="0.1524" layer="1"/>
 <via x="14.6" y="4.55" extent="1-16" drill="0.3302" diameter="0.6858"/>
 <wire x1="14.6" y1="4.55" x2="14.6" y2="9" width="0.1524" layer="16"/>
-<wire x1="14.6" y1="9" x2="15.45" y2="9.85" width="0.1524" layer="16"/>
-<wire x1="15.45" y1="9.85" x2="15.45" y2="14.95" width="0.1524" layer="16"/>
-<via x="15.45" y="14.95" extent="1-16" drill="0.3302" diameter="0.6858"/>
-<wire x1="15.45" y1="14.95" x2="13.25" y2="17.15" width="0.1524" layer="1"/>
+<wire x1="14.6" y1="9" x2="15.3" y2="9.7" width="0.1524" layer="16"/>
+<wire x1="15.3" y1="9.7" x2="15.3" y2="15.1" width="0.1524" layer="16"/>
+<via x="15.3" y="15.1" extent="1-16" drill="0.3302" diameter="0.6858"/>
+<wire x1="15.3" y1="15.1" x2="13.25" y2="17.15" width="0.1524" layer="1"/>
 <wire x1="13.25" y1="17.15" x2="11.9" y2="17.15" width="0.1524" layer="1"/>
 <wire x1="11.9" y1="17.15" x2="11.65" y2="17.4" width="0.1524" layer="1"/>
 <wire x1="11.65" y1="17.4" x2="11.65" y2="18.45" width="0.1524" layer="1"/>
