@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -315,7 +315,7 @@ Pinout used is from CN31 (DSI/eDP) connector of the UP-board (1), discarding DSI
 </class>
 </classes>
 <parts>
-<part name="U$1" library="FH35C_connector" deviceset="FH35C-41S-0.3SHW(50)_BAREBONE" device=""/>
+<part name="FH35C" library="FH35C_connector" deviceset="FH35C-41S-0.3SHW(50)_BAREBONE" device=""/>
 <part name="U$2" library="STE-I-PEX-20455-030E-12" deviceset="STE-I-PEX-20455-030E-12" device=""/>
 </parts>
 <sheets>
@@ -323,7 +323,7 @@ Pinout used is from CN31 (DSI/eDP) connector of the UP-board (1), discarding DSI
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="48.26" y="50.8"/>
+<instance part="FH35C" gate="G$1" x="48.26" y="50.8"/>
 <instance part="U$2" gate="G$1" x="142.24" y="50.8"/>
 </instances>
 <busses>
@@ -334,7 +334,7 @@ Pinout used is from CN31 (DSI/eDP) connector of the UP-board (1), discarding DSI
 <wire x1="73.66" y1="76.2" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="76.2" x2="116.84" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="48.26" x2="127" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="DDI0_TX0_DP"/>
+<pinref part="FH35C" gate="G$1" pin="DDI0_TX0_DP"/>
 <pinref part="U$2" gate="G$1" pin="LANE0_P"/>
 </segment>
 </net>
@@ -343,7 +343,7 @@ Pinout used is from CN31 (DSI/eDP) connector of the UP-board (1), discarding DSI
 <wire x1="73.66" y1="73.66" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="73.66" x2="114.3" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="50.8" x2="127" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="DDI0_TX0_DN"/>
+<pinref part="FH35C" gate="G$1" pin="DDI0_TX0_DN"/>
 <pinref part="U$2" gate="G$1" pin="LANE0_N"/>
 </segment>
 </net>
@@ -352,7 +352,7 @@ Pinout used is from CN31 (DSI/eDP) connector of the UP-board (1), discarding DSI
 <wire x1="73.66" y1="68.58" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="68.58" x2="111.76" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="43.18" x2="127" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="DDI0_TX1_DP"/>
+<pinref part="FH35C" gate="G$1" pin="DDI0_TX1_DP"/>
 <pinref part="U$2" gate="G$1" pin="LANE1_P"/>
 </segment>
 </net>
@@ -361,7 +361,7 @@ Pinout used is from CN31 (DSI/eDP) connector of the UP-board (1), discarding DSI
 <wire x1="73.66" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="66.04" x2="109.22" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="45.72" x2="127" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="DDI0_TX1_DN"/>
+<pinref part="FH35C" gate="G$1" pin="DDI0_TX1_DN"/>
 <pinref part="U$2" gate="G$1" pin="LANE1_N"/>
 </segment>
 </net>
@@ -370,7 +370,7 @@ Pinout used is from CN31 (DSI/eDP) connector of the UP-board (1), discarding DSI
 <wire x1="73.66" y1="45.72" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="45.72" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="55.88" x2="127" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="DDI0_AUX_DP"/>
+<pinref part="FH35C" gate="G$1" pin="DDI0_AUX_DP"/>
 <pinref part="U$2" gate="G$1" pin="AUX_CH_P"/>
 </segment>
 </net>
@@ -379,7 +379,7 @@ Pinout used is from CN31 (DSI/eDP) connector of the UP-board (1), discarding DSI
 <wire x1="73.66" y1="43.18" x2="106.68" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="43.18" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="53.34" x2="127" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="DDI0_AUX_DN"/>
+<pinref part="FH35C" gate="G$1" pin="DDI0_AUX_DN"/>
 <pinref part="U$2" gate="G$1" pin="AUX_CH_N"/>
 </segment>
 </net>
@@ -388,7 +388,7 @@ Pinout used is from CN31 (DSI/eDP) connector of the UP-board (1), discarding DSI
 <wire x1="73.66" y1="38.1" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="38.1" x2="101.6" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="58.42" x2="127" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="DDI0_HPD_CONN"/>
+<pinref part="FH35C" gate="G$1" pin="DDI0_HPD_CONN"/>
 <pinref part="U$2" gate="G$1" pin="HPD"/>
 </segment>
 </net>
@@ -397,7 +397,7 @@ Pinout used is from CN31 (DSI/eDP) connector of the UP-board (1), discarding DSI
 <wire x1="73.66" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="33.02" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="60.96" x2="127" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="DDI0_BKLT_R_CTRL"/>
+<pinref part="FH35C" gate="G$1" pin="DDI0_BKLT_R_CTRL"/>
 <pinref part="U$2" gate="G$1" pin="BL_PWM_DIM"/>
 </segment>
 </net>
@@ -411,7 +411,7 @@ Pinout used is from CN31 (DSI/eDP) connector of the UP-board (1), discarding DSI
 <wire x1="119.38" y1="68.58" x2="127" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="127" y1="73.66" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
 <junction x="119.38" y="73.66"/>
-<pinref part="U$1" gate="G$1" pin="+3.3V"/>
+<pinref part="FH35C" gate="G$1" pin="+3.3V"/>
 <pinref part="U$2" gate="G$1" pin="LCD_VCC"/>
 <pinref part="U$2" gate="G$1" pin="BL_PWR"/>
 </segment>
@@ -429,7 +429,7 @@ Pinout used is from CN31 (DSI/eDP) connector of the UP-board (1), discarding DSI
 <wire x1="124.46" y1="71.12" x2="124.46" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
 <junction x="124.46" y="71.12"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="FH35C" gate="G$1" pin="GND"/>
 <pinref part="U$2" gate="G$1" pin="H_GND"/>
 <pinref part="U$2" gate="G$1" pin="LCD_GND"/>
 <pinref part="U$2" gate="G$1" pin="BL_GND"/>
@@ -440,7 +440,7 @@ Pinout used is from CN31 (DSI/eDP) connector of the UP-board (1), discarding DSI
 <wire x1="127" y1="63.5" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="63.5" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="DDI0_BKLT_EN"/>
+<pinref part="FH35C" gate="G$1" pin="DDI0_BKLT_EN"/>
 <pinref part="U$2" gate="G$1" pin="BL_ENABLE"/>
 </segment>
 </net>
