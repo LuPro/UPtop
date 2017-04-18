@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -100,8 +100,6 @@
 <wire x1="-6.8" y1="1.8" x2="-6.8" y2="2.7" width="0.127" layer="21"/>
 <wire x1="-6.8" y1="2.7" x2="6.8" y2="2.7" width="0.127" layer="21"/>
 <wire x1="6.8" y1="2.7" x2="6.8" y2="1.8" width="0.127" layer="21"/>
-<text x="-7" y="3.9" size="1.27" layer="25">Name</text>
-<text x="-7" y="-4.4" size="1.27" layer="27">Values</text>
 <smd name="PIN22" x="0.3" y="2.5" dx="0.3" dy="2" layer="1"/>
 <smd name="PIN26" x="1.5" y="2.5" dx="0.3" dy="2" layer="1"/>
 <smd name="PIN36" x="4.5" y="2.5" dx="0.3" dy="2" layer="1"/>
